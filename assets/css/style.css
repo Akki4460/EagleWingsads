@@ -7,6 +7,10 @@
 */
 
 
+.flexi{
+  display: flex;
+  justify-content: end;
+}
 
 
   /* Add these CSS rules */
@@ -20,7 +24,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity to make it darker/lighter */
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity to make it darker/lighter */
     z-index: 1; /* Ensure it covers the video */
   }
 
@@ -36,11 +40,12 @@
   }
 
   .shadowed-text {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adjust the shadow size and color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
 
   .right {
-    float: right;
+    width: 70%;
+    margin-top: -1rem;
   }
 
   .txt1{
@@ -162,6 +167,8 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -213,6 +220,9 @@ h6 {
   display: inline-block;
   border: 2px solid #ffc451;
 }
+.yc{
+  color: #ffc451;
+}
 
 .get-started-btn:hover {
   background: #ffbb38;
@@ -223,6 +233,9 @@ h6 {
   .get-started-btn {
     padding: 7px 20px 8px 20px;
     margin-right: 15px;
+  }
+  .flexi{
+    justify-content:center;
   }
 }
 
@@ -492,6 +505,7 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
+  color: #ffc451;
 }
 
 #hero .icon-box {
