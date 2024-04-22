@@ -12,6 +12,10 @@
   justify-content: end;
 }
 
+.fl{
+  display: flex;
+}
+
 
   /* Add these CSS rules */
   #hero {
@@ -204,7 +208,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 41px;
 }
 
 /*--------------------------------------------------------------
